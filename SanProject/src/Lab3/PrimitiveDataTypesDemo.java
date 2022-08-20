@@ -2,17 +2,16 @@ package Lab3;
 
 public class PrimitiveDataTypesDemo {
 
-	static byte b;
-	static short s;
-	static int i;
-	static long l;
-	static float f;
-	static double d;
-	static char c;
-	static boolean bl;
+	static byte b=127;
+	static short s=32767;
+	static int i=2147483647;
+	static long l=9223372036854775807L;
+	static float f=1234.9999999f;
+	static double d=1234.9999999999999999d;
+	static char c='A';
+	static boolean bl=true;
 	public static void main(String args[])
 	{	
-
 		System.out.println("The default values of primitive data types are:");
 		System.out.println("Byte :"+b);
 		System.out.println("Short :"+s);
@@ -23,4 +22,4 @@ public class PrimitiveDataTypesDemo {
 		System.out.println("Char :"+c);
 		System.out.println("Boolean :"+bl);
 		}
-		}
+	}
